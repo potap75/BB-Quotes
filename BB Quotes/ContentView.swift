@@ -12,7 +12,7 @@ struct ContentView: View {
     var body: some View {
         
         TabView {
-            Text("Breaking Bad View")
+            QuoteView(show: "Breaking Bad")
                 .tabItem {
                     Label("Breaking Bad", systemImage: "tortoise")
                 }
